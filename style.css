@@ -195,5 +195,31 @@ body {
 /* personal-introduction */
 .intro-bg-img {
   background: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true")
-    no-repeat;
+    repeat;
+}
+/* left-section */
+.personal-introduction {
+  width: 100%;
+  padding: 160px 0;
+}
+.section-left {
+  color: #fff;
+}
+.left-title {
+  font-size: 64px;
+}
+.left-description {
+  font-size: 24px;
+}
+.section-left img {
+  margin-right: 16px;
+}
+/* right-section */
+.section-right {
+  outline: 3px solid tomato;
+  display: flex;
+  justify-content: space-around;
+}
+.section-right img {
+  margin-right: 24px;
 }
